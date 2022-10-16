@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Passion+One:wght@700&display=swap');
+body{
+    margin: 0;
+    min-height: 100vh;
+    font-size:x-large;
+    background: url(./images/fondobosque.jpg) no-repeat;
+    background-size: 100%;
+    font-family: 'Passion One';
+}
+header{
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#tittleheader{
+    background-color: rgba(220, 185, 12, 0.7);
+    display: inline-block;
+    border-radius: 70%;
+    font-family: 'Passion One';
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: rgb(225, 255, 255,7.);
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+
+#resultado{
+    font-family: 'Creepster', cursive;
+    color: red;
+    font-family: 'Passion One';
+}
+
+#imagen{
+    width: 300px;
+    margin: 0%;
+}
+
+#palabras_a_adivinar{
+    height: 3em;
+}
+
+#palabra_a_adivinar span {
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    width: 30px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block;
+    background-image: url("./images/texturaboton.jpg");
+    color: white;
+    border-radius: 20%;
+}
+
+#letras{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    font-family: 'Passion One';
+}
+
+
+#letras button{
+    width: 28px;
+    padding: 6px 0;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Passion One';
+    border-radius: 25%;
+    border-color: rgb(100, 54, 5);
+    color: rgb(100, 54, 5);
+}
+
+#jugar {
+    background-image: url("./images/texturaboton.jpg");
+    color: white;
+    font-size: xx-large;
+    border-radius: 15%;
+    font-family: 'Passion One';
+}
+
+#imagen {
+    border-radius: 5%;
+    border-style: dashed;
+}
+
